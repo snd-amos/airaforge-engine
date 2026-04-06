@@ -18,8 +18,33 @@ public class TransformCommand extends Command {
     private float newScaleX, newScaleY, newScaleZ;
 
     /**
-     * Create a transform command.
-     * Automatically captures the current state as the "before" state.
+     * Create a transform command with explicit before state.
+     * Used for Inspector edits where we capture the initial values.
+     */
+    public TransformCommand(GameObject gameObject,
+                            float beforeX, float beforeY, float beforeZ,
+                            float beforeRotX, float beforeRotY, float beforeRotZ,
+                            float beforeScaleX, float beforeScaleY, float beforeScaleZ) {
+        this.gameObject = gameObject;
+
+        // Set before state from parameters
+        this.prevX = beforeX;
+        this.prevY = beforeY;
+        this.prevZ = beforeZ;
+        this.prevRotX = beforeRotX;
+        this.prevRotY = beforeRotY;
+        this.prevRotZ = beforeRotZ;
+        this.prevScaleX = beforeScaleX;
+        this.prevScaleY = beforeScaleY;
+        this.prevScaleZ = beforeScaleZ;
+
+        // Capture current state as "after"
+        captureAfterState();
+    }
+
+    /**
+     * Alternative constructor for gizmo drags (auto-captures before state).
+     * Used when starting a gizmo drag operation.
      */
     public TransformCommand(GameObject gameObject) {
         this.gameObject = gameObject;

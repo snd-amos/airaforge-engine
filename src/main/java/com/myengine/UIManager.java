@@ -26,6 +26,15 @@ public class UIManager {
     public float viewportX, viewportY, viewportWidth = 800, viewportHeight = 600;
     public boolean isViewportHovered = false;
 
+    // Inspector state tracking for undo/redo
+    private GameObject lastEditedObject = null;
+    private float beforePosX, beforePosY, beforePosZ;
+    private float beforeRotX, beforeRotY, beforeRotZ;
+    private float beforeScaleX, beforeScaleY, beforeScaleZ;
+    private boolean wasEditingPosition = false;
+    private boolean wasEditingRotation = false;
+    private boolean wasEditingScale = false;
+
     /**
      * Initialize ImGui and register platform/renderer backends.
      */
@@ -138,6 +147,14 @@ public class UIManager {
         ImGui.begin("Inspector");
 
         if (scene.selectedBox != null) {
+            // If we switched objects, clear the editing flags
+            if (lastEditedObject != scene.selectedBox) {
+                wasEditingPosition = false;
+                wasEditingRotation = false;
+                wasEditingScale = false;
+                lastEditedObject = scene.selectedBox;
+            }
+
             // Name input
             if (ImGui.inputText("Name", nameInput)) {
                 scene.selectedBox.name = nameInput.get();
@@ -163,34 +180,128 @@ public class UIManager {
 
             ImGui.separator();
 
-            // Position controls
+            // === POSITION CONTROLS ===
             float[] pos = {scene.selectedBox.transform.x, scene.selectedBox.transform.y, scene.selectedBox.transform.z};
+
+            // Capture before state when user STARTS dragging
             if (ImGui.dragFloat3("Position", pos, 0.1f)) {
+                if (!wasEditingPosition) {
+                    // This is the first frame of the drag - save the CURRENT values as before
+                    beforePosX = scene.selectedBox.transform.x;
+                    beforePosY = scene.selectedBox.transform.y;
+                    beforePosZ = scene.selectedBox.transform.z;
+                    beforeRotX = scene.selectedBox.transform.rotX;
+                    beforeRotY = scene.selectedBox.transform.rotY;
+                    beforeRotZ = scene.selectedBox.transform.rotZ;
+                    beforeScaleX = scene.selectedBox.transform.scaleX;
+                    beforeScaleY = scene.selectedBox.transform.scaleY;
+                    beforeScaleZ = scene.selectedBox.transform.scaleZ;
+                    wasEditingPosition = true;
+                }
                 scene.selectedBox.transform.x = pos[0];
                 scene.selectedBox.transform.y = pos[1];
                 scene.selectedBox.transform.z = pos[2];
             }
 
-            // Sun intensity (if sun block selected)
+            // If user just finished dragging
+            if (wasEditingPosition && !ImGui.isItemActive() && ImGui.isItemDeactivatedAfterEdit()) {
+                // Record the change
+                TransformCommand command = new TransformCommand(
+                        scene.selectedBox,
+                        beforePosX, beforePosY, beforePosZ,  // Before state
+                        beforeRotX, beforeRotY, beforeRotZ,
+                        beforeScaleX, beforeScaleY, beforeScaleZ
+                );
+                if (command.hasChanged()) {
+                    scene.undoRedoManager.execute(command);
+                    Logger.info("Position change recorded via Inspector");
+                }
+                wasEditingPosition = false;
+            }
+
+            // === SUN INTENSITY (if sun block selected) ===
             if (scene.selectedBox == scene.sunBlock) {
+                float oldIntensity = scene.sunIntensity;
                 float[] intensity = {scene.sunIntensity};
+
                 if (ImGui.dragFloat("Sun Intensity", intensity, 0.05f, 0.0f, 5.0f)) {
                     scene.sunIntensity = intensity[0];
                 }
             } else {
-                // Rotation and scale controls
+                // === ROTATION CONTROLS ===
                 float[] rot = {scene.selectedBox.transform.rotX, scene.selectedBox.transform.rotY, scene.selectedBox.transform.rotZ};
+
                 if (ImGui.dragFloat3("Rotation", rot, 1.0f)) {
+                    if (!wasEditingRotation) {
+                        // This is the first frame of the drag - save the CURRENT values as before
+                        beforePosX = scene.selectedBox.transform.x;
+                        beforePosY = scene.selectedBox.transform.y;
+                        beforePosZ = scene.selectedBox.transform.z;
+                        beforeRotX = scene.selectedBox.transform.rotX;
+                        beforeRotY = scene.selectedBox.transform.rotY;
+                        beforeRotZ = scene.selectedBox.transform.rotZ;
+                        beforeScaleX = scene.selectedBox.transform.scaleX;
+                        beforeScaleY = scene.selectedBox.transform.scaleY;
+                        beforeScaleZ = scene.selectedBox.transform.scaleZ;
+                        wasEditingRotation = true;
+                    }
                     scene.selectedBox.transform.rotX = rot[0];
                     scene.selectedBox.transform.rotY = rot[1];
                     scene.selectedBox.transform.rotZ = rot[2];
                 }
 
+                // If user just finished dragging rotation
+                if (wasEditingRotation && !ImGui.isItemActive() && ImGui.isItemDeactivatedAfterEdit()) {
+                    // Record the change
+                    TransformCommand command = new TransformCommand(
+                            scene.selectedBox,
+                            beforePosX, beforePosY, beforePosZ,
+                            beforeRotX, beforeRotY, beforeRotZ,  // Before state
+                            beforeScaleX, beforeScaleY, beforeScaleZ
+                    );
+                    if (command.hasChanged()) {
+                        scene.undoRedoManager.execute(command);
+                        Logger.info("Rotation change recorded via Inspector");
+                    }
+                    wasEditingRotation = false;
+                }
+
+                // === SCALE CONTROLS ===
                 float[] scale = {scene.selectedBox.transform.scaleX, scene.selectedBox.transform.scaleY, scene.selectedBox.transform.scaleZ};
+
                 if (ImGui.dragFloat3("Scale", scale, 0.05f)) {
+                    if (!wasEditingScale) {
+                        // This is the first frame of the drag - save the CURRENT values as before
+                        beforePosX = scene.selectedBox.transform.x;
+                        beforePosY = scene.selectedBox.transform.y;
+                        beforePosZ = scene.selectedBox.transform.z;
+                        beforeRotX = scene.selectedBox.transform.rotX;
+                        beforeRotY = scene.selectedBox.transform.rotY;
+                        beforeRotZ = scene.selectedBox.transform.rotZ;
+                        beforeScaleX = scene.selectedBox.transform.scaleX;
+                        beforeScaleY = scene.selectedBox.transform.scaleY;
+                        beforeScaleZ = scene.selectedBox.transform.scaleZ;
+                        wasEditingScale = true;
+                    }
                     scene.selectedBox.transform.scaleX = scale[0];
                     scene.selectedBox.transform.scaleY = scale[1];
                     scene.selectedBox.transform.scaleZ = scale[2];
+                }
+
+                // If user just finished dragging scale
+                if (wasEditingScale && !ImGui.isItemActive() && ImGui.isItemDeactivatedAfterEdit()) {
+                    // Record the change
+                    TransformCommand command = new TransformCommand(
+                            scene.selectedBox,
+                            beforePosX, beforePosY, beforePosZ,
+                            beforeRotX, beforeRotY, beforeRotZ,
+                            beforeScaleX, beforeScaleY, beforeScaleZ  // Before state
+                    );
+                    if (command.hasChanged()) {
+                        scene.undoRedoManager.execute(command);
+                        Logger.info("Scale change recorded via Inspector");
+                    }
+                    wasEditingScale = false;
                 }
             }
 
@@ -228,6 +339,9 @@ public class UIManager {
 
         } else {
             ImGui.text("Select an object in the world to inspect it.");
+            wasEditingPosition = false;
+            wasEditingRotation = false;
+            wasEditingScale = false;
         }
         ImGui.end();
     }

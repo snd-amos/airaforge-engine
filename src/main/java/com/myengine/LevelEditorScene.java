@@ -18,7 +18,7 @@ public class LevelEditorScene extends Scene {
     private UIManager uiManager = new UIManager();
     private Shader defaultShader;
     private Framebuffer framebuffer;
-    private UndoRedoManager undoRedoManager = new UndoRedoManager();
+    public UndoRedoManager undoRedoManager = new UndoRedoManager();
 
     private int draggingAxis = -1;
     private double lastDragMouseY, lastDragMouseX;
@@ -96,8 +96,6 @@ public class LevelEditorScene extends Scene {
 
     @Override
     public void update(double dt, boolean[] keys) {
-        boolean isTyping = ImGui.getIO().getWantCaptureKeyboard();
-
         // Check for R key press during drag to cancel
         if (isEditorMode && draggingAxis != -1 && selectedBox != null) {
             if (keys[GLFW_KEY_R]) {
@@ -116,12 +114,18 @@ public class LevelEditorScene extends Scene {
             }
         }
 
-        // Only update player if active
-        boolean isActive = uiManager.isViewportHovered || isPanning || draggingAxis != -1;
-
-        if (isEditorMode && isActive && !isTyping) {
-            player.update(keys, world, false);
-        } else if (!isEditorMode) {
+        // ALWAYS update player in editor mode - don't check viewport hover
+        if (isEditorMode) {
+            // In editor mode: ALWAYS update player, regardless of mouse position
+            // But create a modified keys array to block Shift from going down while dragging
+            boolean[] modifiedKeys = keys.clone();
+            if (draggingAxis != -1) {
+                // While dragging a gizmo, don't allow shift to make player go down
+                modifiedKeys[GLFW_KEY_LEFT_SHIFT] = false;
+            }
+            player.update(modifiedKeys, world, false);
+        } else {
+            // In play mode: ALWAYS update player
             player.update(keys, world, false);
         }
 
@@ -264,7 +268,38 @@ public class LevelEditorScene extends Scene {
 
     @Override
     public void onKeyPress(int key, int action) {
-        if (isEditorMode && ImGui.getIO().getWantCaptureKeyboard()) return;
+        // ALWAYS allow these keys to work, even if ImGui wants them
+        if (key == GLFW_KEY_R && action == GLFW_PRESS) {
+            if (isEditorMode) {
+                if (draggingAxis != -1 && selectedBox != null) {
+                    // Gizmo drag - revert to snapped transform
+                    selectedBox.transform.x = snapX;
+                    selectedBox.transform.y = snapY;
+                    selectedBox.transform.z = snapZ;
+                    selectedBox.transform.rotX = snapRotX;
+                    selectedBox.transform.rotY = snapRotY;
+                    selectedBox.transform.rotZ = snapRotZ;
+                    selectedBox.transform.scaleX = snapScaleX;
+                    selectedBox.transform.scaleY = snapScaleY;
+                    selectedBox.transform.scaleZ = snapScaleZ;
+                    draggingAxis = -1;
+                    Logger.info("Gizmo transform cancelled");
+                } else if (selectedBox != null && undoRedoManager.canUndo()) {
+                    // If not dragging gizmo, but Inspector is being edited, undo the last change
+                    undoRedoManager.undo();
+                    Logger.info("Inspector change undone");
+                }
+            }
+            return; // Exit early so we don't block R key
+        }
+
+        // ALWAYS allow SPACE, movement keys, and hotkeys
+        if (ImGui.getIO().getWantCaptureKeyboard() &&
+                key != GLFW_KEY_SPACE && key != GLFW_KEY_W && key != GLFW_KEY_A &&
+                key != GLFW_KEY_S && key != GLFW_KEY_D && key != GLFW_KEY_LEFT_SHIFT &&
+                key != GLFW_KEY_Z && key != GLFW_KEY_Y && key != GLFW_KEY_X) {
+            return;
+        }
 
         if (key == GLFW_KEY_P && action == GLFW_PRESS) {
             isEditorMode = !isEditorMode;
@@ -286,7 +321,7 @@ public class LevelEditorScene extends Scene {
                     if (undoRedoManager.canUndo()) {
                         undoRedoManager.undo();
                         Logger.info("Undo performed");
-                        selectedBox = null; // Deselect to avoid referencing deleted objects
+                        selectedBox = null;
                     } else {
                         Logger.warn("Nothing to undo");
                     }
@@ -299,27 +334,10 @@ public class LevelEditorScene extends Scene {
                     if (undoRedoManager.canRedo()) {
                         undoRedoManager.redo();
                         Logger.info("Redo performed");
-                        selectedBox = null; // Deselect to avoid referencing deleted objects
+                        selectedBox = null;
                     } else {
                         Logger.warn("Nothing to redo");
                     }
-                }
-            }
-
-            // Cancel drag (R key) - for when not actively dragging with mouse
-            if (key == GLFW_KEY_R && action == GLFW_PRESS) {
-                if (draggingAxis != -1 && selectedBox != null) {
-                    selectedBox.transform.x = snapX;
-                    selectedBox.transform.y = snapY;
-                    selectedBox.transform.z = snapZ;
-                    selectedBox.transform.rotX = snapRotX;
-                    selectedBox.transform.rotY = snapRotY;
-                    selectedBox.transform.rotZ = snapRotZ;
-                    selectedBox.transform.scaleX = snapScaleX;
-                    selectedBox.transform.scaleY = snapScaleY;
-                    selectedBox.transform.scaleZ = snapScaleZ;
-                    draggingAxis = -1;
-                    Logger.info("Transform cancelled");
                 }
             }
 
@@ -335,7 +353,7 @@ public class LevelEditorScene extends Scene {
             }
         }
 
-        // Double-tap space to toggle flying
+        // Double-tap space to toggle flying (ALWAYS works, even with Inspector open)
         if (key == GLFW_KEY_SPACE && action == GLFW_PRESS) {
             long currentTime = System.currentTimeMillis();
             if (currentTime - lastSpacePressTime < Config.DOUBLE_TAP_DELAY) {
@@ -396,19 +414,38 @@ public class LevelEditorScene extends Scene {
 
     /**
      * Update transform based on drag input.
+     * isShift: true = snap to grid, false = fine movement
      */
     private void updateTransformDrag(double deltaY, double deltaX, float sensitivity, boolean isShift) {
         if (selectedBox.transformMode == 0) {
             // Move mode
             if (draggingAxis == 1) {
+                // Y axis (vertical)
                 rawDragY += (float) (deltaY * sensitivity);
-                selectedBox.transform.y = isShift ? rawDragY : (float) Math.round(rawDragY + 0.5f) - 0.5f;
+                // Shift = snap to grid, No shift = fine movement
+                if (isShift) {
+                    selectedBox.transform.y = (float) Math.round(rawDragY + 0.5f) - 0.5f;
+                } else {
+                    selectedBox.transform.y = rawDragY;
+                }
             } else if (draggingAxis == 0) {
+                // X axis
                 rawDragX += (float) (deltaX * sensitivity);
-                selectedBox.transform.x = isShift ? rawDragX : (float) Math.round(rawDragX);
+                // Shift = snap to grid, No shift = fine movement
+                if (isShift) {
+                    selectedBox.transform.x = (float) Math.round(rawDragX);
+                } else {
+                    selectedBox.transform.x = rawDragX;
+                }
             } else if (draggingAxis == 2) {
+                // Z axis
                 rawDragZ -= (float) (deltaY * sensitivity);
-                selectedBox.transform.z = isShift ? rawDragZ : (float) Math.round(rawDragZ);
+                // Shift = snap to grid, No shift = fine movement
+                if (isShift) {
+                    selectedBox.transform.z = (float) Math.round(rawDragZ);
+                } else {
+                    selectedBox.transform.z = rawDragZ;
+                }
             }
         } else if (selectedBox.transformMode == 1) {
             // Rotate mode
@@ -448,7 +485,7 @@ public class LevelEditorScene extends Scene {
                     // Finish drag and record undo command
                     if (draggingAxis != -1 && selectedBox != null) {
                         TransformCommand command = new TransformCommand(selectedBox);
-                        command.captureAfterState(); // Capture the new state after dragging
+                        command.captureAfterState();
 
                         // Only record if something actually changed
                         if (command.hasChanged()) {

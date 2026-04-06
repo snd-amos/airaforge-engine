@@ -1,0 +1,22 @@
+# --- Build Output ---
+# Ignore the entire target directory where Maven compiles your code
+target/
+out/
+build/
+
+# --- IntelliJ IDEA ---
+# Ignore your personal IDE settings
+.idea/
+*.iws
+*.iml
+*.ipr
+.mvn/
+
+# --- Game Engine Specifics ---
+# These files change every time you run the game/editor
+imgui.ini
+level.json
+
+# --- OS Junk ---
+.DS_Store
+Thumbs.db

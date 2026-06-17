@@ -13,7 +13,74 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <lwjgl.version>3.3.3</lwjgl.version>
+        <!-- 1.89.0 ships a Mach-O universal macOS native (x86_64 + arm64) —
+             1.86.11 was Intel-only and crashed on Apple Silicon with an
+             "incompatible architecture" UnsatisfiedLinkError. -->
+        <imgui.version>1.89.0</imgui.version>
     </properties>
+
+    <!-- Per-platform natives. The matching profile auto-activates at build
+         time so you don't need to pass any flags. -->
+    <profiles>
+        <profile>
+            <id>natives-windows</id>
+            <activation>
+                <os><family>windows</family></os>
+            </activation>
+            <properties>
+                <lwjgl.natives>natives-windows</lwjgl.natives>
+                <imgui.natives>imgui-java-natives-windows</imgui.natives>
+            </properties>
+        </profile>
+        <profile>
+            <id>natives-linux</id>
+            <activation>
+                <os><family>unix</family><name>linux</name></os>
+            </activation>
+            <properties>
+                <lwjgl.natives>natives-linux</lwjgl.natives>
+                <imgui.natives>imgui-java-natives-linux</imgui.natives>
+            </properties>
+        </profile>
+        <profile>
+            <id>natives-macos-intel</id>
+            <activation>
+                <os><family>mac</family><arch>x86_64</arch></os>
+            </activation>
+            <properties>
+                <lwjgl.natives>natives-macos</lwjgl.natives>
+                <imgui.natives>imgui-java-natives-macos</imgui.natives>
+            </properties>
+            <!-- MoltenVK is bundled in the lwjgl-vulkan natives jar on macOS.
+                 No corresponding artifact exists on Windows / Linux (the
+                 Vulkan loader comes from the GPU driver on those platforms),
+                 so we only declare this dep inside the macOS profiles. -->
+            <dependencies>
+                <dependency>
+                    <groupId>org.lwjgl</groupId>
+                    <artifactId>lwjgl-vulkan</artifactId>
+                    <classifier>natives-macos</classifier>
+                </dependency>
+            </dependencies>
+        </profile>
+        <profile>
+            <id>natives-macos-arm</id>
+            <activation>
+                <os><family>mac</family><arch>aarch64</arch></os>
+            </activation>
+            <properties>
+                <lwjgl.natives>natives-macos-arm64</lwjgl.natives>
+                <imgui.natives>imgui-java-natives-macos</imgui.natives>
+            </properties>
+            <dependencies>
+                <dependency>
+                    <groupId>org.lwjgl</groupId>
+                    <artifactId>lwjgl-vulkan</artifactId>
+                    <classifier>natives-macos-arm64</classifier>
+                </dependency>
+            </dependencies>
+        </profile>
+    </profiles>
 
     <dependencyManagement>
         <dependencies>
@@ -49,20 +116,40 @@
             <artifactId>lwjgl-assimp</artifactId>
         </dependency>
 
+        <!-- Vulkan bindings. The Java side is platform-agnostic; the actual
+             ICD (Vulkan Installable Client Driver) is provided by the GPU
+             driver on Windows / Linux. On macOS we bundle MoltenVK via the
+             classifier dep declared in the macOS profiles above. -->
+        <dependency>
+            <groupId>org.lwjgl</groupId>
+            <artifactId>lwjgl-vulkan</artifactId>
+        </dependency>
+
+        <!-- Runtime GLSL → SPIR-V compiler. We invoke shaderc from Java to
+             compile shader sources at engine startup instead of shipping
+             pre-compiled .spv files and a build-time `glslc` invocation.
+             Trade-off: 50-100ms of compile time on first run, but lets us
+             iterate on shaders without rebuilding via Maven. Can switch to
+             offline compilation later for release builds. -->
+        <dependency>
+            <groupId>org.lwjgl</groupId>
+            <artifactId>lwjgl-shaderc</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>io.github.spair</groupId>
             <artifactId>imgui-java-binding</artifactId>
-            <version>1.86.11</version>
+            <version>${imgui.version}</version>
         </dependency>
         <dependency>
             <groupId>io.github.spair</groupId>
             <artifactId>imgui-java-lwjgl3</artifactId>
-            <version>1.86.11</version>
+            <version>${imgui.version}</version>
         </dependency>
         <dependency>
             <groupId>io.github.spair</groupId>
-            <artifactId>imgui-java-natives-windows</artifactId>
-            <version>1.86.11</version>
+            <artifactId>${imgui.natives}</artifactId>
+            <version>${imgui.version}</version>
         </dependency>
 
         <dependency>
@@ -72,29 +159,41 @@
         </dependency>
 
         <dependency>
+            <groupId>org.joml</groupId>
+            <artifactId>joml</artifactId>
+            <version>1.10.5</version>
+        </dependency>
+
+        <!-- Native binaries selected by the active platform profile -->
+        <dependency>
             <groupId>org.lwjgl</groupId>
             <artifactId>lwjgl</artifactId>
-            <classifier>natives-windows</classifier>
+            <classifier>${lwjgl.natives}</classifier>
         </dependency>
         <dependency>
             <groupId>org.lwjgl</groupId>
             <artifactId>lwjgl-glfw</artifactId>
-            <classifier>natives-windows</classifier>
+            <classifier>${lwjgl.natives}</classifier>
         </dependency>
         <dependency>
             <groupId>org.lwjgl</groupId>
             <artifactId>lwjgl-opengl</artifactId>
-            <classifier>natives-windows</classifier>
+            <classifier>${lwjgl.natives}</classifier>
         </dependency>
         <dependency>
             <groupId>org.lwjgl</groupId>
             <artifactId>lwjgl-stb</artifactId>
-            <classifier>natives-windows</classifier>
+            <classifier>${lwjgl.natives}</classifier>
         </dependency>
         <dependency>
             <groupId>org.lwjgl</groupId>
             <artifactId>lwjgl-assimp</artifactId>
-            <classifier>natives-windows</classifier>
+            <classifier>${lwjgl.natives}</classifier>
+        </dependency>
+        <dependency>
+            <groupId>org.lwjgl</groupId>
+            <artifactId>lwjgl-shaderc</artifactId>
+            <classifier>${lwjgl.natives}</classifier>
         </dependency>
     </dependencies>
 </project>

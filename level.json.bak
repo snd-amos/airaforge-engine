@@ -1,0 +1,6670 @@
+[
+  {
+    "uuid": "88352f54-37d7-410e-b844-d3edbe4bc847",
+    "name": "night1",
+    "transformMode": 0,
+    "transform": {
+      "x": 13.7385645,
+      "y": 0.86,
+      "z": 14.773781,
+      "rotX": 0.0,
+      "rotY": -180.0,
+      "rotZ": 0.0,
+      "scaleX": 2.25,
+      "scaleY": 2.25,
+      "scaleZ": 2.25,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "night1.png",
+        "modelPath": "night1.glb",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": false,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "fe6c8199-0ce1-41e2-a333-ea9f0c84d7f9",
+    "name": "Object",
+    "transformMode": 2,
+    "transform": {
+      "x": -13.287602,
+      "y": 6.0,
+      "z": -2.5210762,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 0.5,
+      "scaleY": 12.0,
+      "scaleZ": 12.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "br1.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 0.05
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "e9dc4bd4-e68d-4b33-9f21-fd0ae7eb735f",
+    "name": "Object",
+    "transformMode": 2,
+    "transform": {
+      "x": -8.5,
+      "y": 6.0,
+      "z": 6.6142035,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 0.5,
+      "scaleY": 12.0,
+      "scaleZ": 12.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "br1.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 0.05
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "7a8b7394-1ac4-4613-9a38-7699cd838b9f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -11.0,
+      "y": 0.5,
+      "z": 12.170589,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "e2e141da-daa8-4fed-8f97-5af30e6e5e5e",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -11.0,
+      "y": 1.5,
+      "z": 12.170589,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "261ccf28-fe58-4fb6-ad0b-598d83f2d5d1",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -11.0,
+      "y": 0.5,
+      "z": 13.170589,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "d31a36c1-b9e0-49c6-8c6b-36bd18fed5cd",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -12.0,
+      "y": 0.5,
+      "z": 12.170589,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "245be352-7fc2-40f9-848b-ad06fea24191",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -12.0,
+      "y": 0.5,
+      "z": 13.170589,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "6a96fb44-f67f-4a88-a8ee-3b5bcf3f6efa",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -12.0,
+      "y": 1.5,
+      "z": 12.170589,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "dba704c9-ba63-4d67-8188-212eda714d7f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -11.0,
+      "y": 0.5,
+      "z": 14.170593,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "7df2b344-41ff-4cbf-ad59-f999b511312e",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -12.0,
+      "y": 0.5,
+      "z": 14.170593,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "22d10aee-6bde-4385-8f6b-6b1da135b852",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -11.0,
+      "y": 1.5,
+      "z": 13.170589,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "5b2d432a-e6cb-4a67-9590-273fb7bbdf8a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -12.0,
+      "y": 1.5,
+      "z": 13.170589,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "3656a94e-4b79-4bf2-8ecf-3dce850692c8",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -11.0,
+      "y": 2.5,
+      "z": 12.170589,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "37a8d31b-d88b-4972-9ed9-252b77f8afc5",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -12.0,
+      "y": 2.5,
+      "z": 12.170589,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "632d6bc8-b03a-4ebc-ae8a-0a860d1575db",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -11.0,
+      "y": 2.5,
+      "z": 11.17059,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "ad1abdad-ede8-4617-a40f-6c51c4dda91f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -12.0,
+      "y": 2.5,
+      "z": 11.17059,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "b7a78cfe-760e-4122-a9e2-1a007a6488d9",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -13.0,
+      "y": 2.5,
+      "z": 12.170589,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "6bfca8f3-1443-490b-83a3-8713dc4a98c5",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -13.0,
+      "y": 2.5,
+      "z": 11.17059,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "48392c14-6e64-4984-97e9-470825933420",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -14.0,
+      "y": 2.5,
+      "z": 11.17059,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "435c66d8-542c-4b3d-918a-8dccb3882d89",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -14.0,
+      "y": 2.5,
+      "z": 12.170589,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "5ca0ca8a-8ca1-4bf0-b663-43975354be1a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -13.0,
+      "y": 2.5,
+      "z": 13.170589,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "6a21f1af-d04f-42c4-a0e6-e4c20e0d5849",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -14.0,
+      "y": 2.5,
+      "z": 13.170589,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "4af0ae94-f75d-4a41-8cbc-64732cc421b8",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -13.0,
+      "y": 2.5,
+      "z": 14.170593,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "f17eda48-78bf-44b3-b41d-09f3a7d2205b",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -14.0,
+      "y": 2.5,
+      "z": 14.170593,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "1ec4b702-0197-4ff5-9140-2f5a1ed2e8d9",
+    "name": "old_computer",
+    "transformMode": 0,
+    "transform": {
+      "x": 13.871888,
+      "y": 1.3270661,
+      "z": 14.754511,
+      "rotX": 90.0,
+      "rotY": 180.0,
+      "rotZ": -90.0,
+      "scaleX": 1.2148395,
+      "scaleY": 1.2148395,
+      "scaleZ": 1.2148395,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "old_computer.glb",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": false,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "fc5775a3-7abe-48c4-8d55-a7d3e52cc403",
+    "name": "Floor",
+    "transformMode": 0,
+    "transform": {
+      "x": 0.0,
+      "y": -0.001,
+      "z": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 12.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "gr1.png",
+        "modelPath": "__floor_plane",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 0.315
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "c694f0e4-58c3-4853-8e79-1354031ac83f",
+    "name": "Sun",
+    "transformMode": 0,
+    "transform": {
+      "x": -25.70456,
+      "y": 36.543762,
+      "z": -39.95616,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "7de3b6d2-bbc0-4a20-aa97-5dbe25f125cf",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 7.0,
+      "y": 0.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "f5bc594c-5650-46de-8025-d4876f07af64",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 7.0,
+      "y": 1.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "85522dbf-b823-4479-82b4-c19db9b1eb16",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 7.0,
+      "y": 2.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "197c4660-f213-4215-a91e-61f998d365f9",
+    "name": "S500",
+    "transformMode": 0,
+    "transform": {
+      "x": 6.6055946,
+      "y": 1.0461432,
+      "z": 13.0,
+      "rotX": -90.00007,
+      "rotY": 0.0,
+      "rotZ": -0.0,
+      "scaleX": 0.8193632,
+      "scaleY": 0.8193632,
+      "scaleZ": 0.8193632,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "merc.png",
+        "modelPath": "S500.fbx",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": false,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "67b21ff5-833f-4fc7-a7f4-d85affce783a",
+    "name": "Object",
+    "transformMode": 2,
+    "transform": {
+      "x": -8.564026,
+      "y": 6.0,
+      "z": -11.956225,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 0.5,
+      "scaleY": 12.0,
+      "scaleZ": 12.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "br1.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 50.0,
+          "faceColors": [
+            [
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "7929c7b0-ddb5-4d13-9104-ff686668b9d5",
+    "name": "Floor",
+    "transformMode": 0,
+    "transform": {
+      "x": 40.0,
+      "y": -0.001,
+      "z": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "gr1.png",
+        "modelPath": "__floor_plane",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 0.315
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "a23a2b3e-f22f-4f17-be9f-bf1f56402b0a",
+    "name": "Object",
+    "transformMode": 1,
+    "transform": {
+      "x": 7.0,
+      "y": 3.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "2a75163b-28e6-4a93-b9e6-6c28f8744175",
+    "name": "leaf_tree_-_ps1_low_poly",
+    "transformMode": 0,
+    "transform": {
+      "x": 20.0,
+      "y": 5.5347877,
+      "z": -13.066853,
+      "rotX": -43.03264,
+      "rotY": -14.679073,
+      "rotZ": -164.81413,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "leaf_tree_-_ps1_low_poly.glb",
+        "material": {
+          "r": 0.7941176,
+          "g": 0.6345155,
+          "b": 0.6345155,
+          "useWorldSpaceTiling": false,
+          "textureScale": 1.0
+        },
+        "isFoliage": true,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "72967f5f-dd18-485b-afd7-8e5361dde6a8",
+    "name": "1981_chevrolet_caprice_classic_9c1_psx_style",
+    "transformMode": 0,
+    "transform": {
+      "x": 15.377078,
+      "y": -0.03509061,
+      "z": 6.101046,
+      "rotX": -90.00007,
+      "rotY": 0.0,
+      "rotZ": -0.0,
+      "scaleX": 0.60244226,
+      "scaleY": 0.60244226,
+      "scaleZ": 0.60244226,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "1981_chevrolet_caprice_classic_9c1_psx_style.glb",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": false,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "144a9328-44d1-4297-8eb2-c97e67e2a464",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 10.0,
+      "y": 2.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "1741640e-6abf-4b28-9792-1a06af1ba789",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 10.0,
+      "y": 1.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "68f79db9-0ba0-4f37-b1b8-851322fa2c36",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 10.0,
+      "y": 0.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "25458095-a7c2-4e16-8f28-5882fec729ed",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 11.0,
+      "y": 0.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "d9590c84-6953-4fdb-a4c3-32464597add8",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 11.0,
+      "y": 2.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "aa83ee34-2c4c-44d7-804d-a0ab26510773",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 11.0,
+      "y": 1.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "db439017-afdd-419f-9d1a-dd28604f5df3",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 10.0,
+      "y": 3.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "5133c0e6-e7df-4f90-96b6-0cbf1ee8fdf8",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 11.0,
+      "y": 3.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "14d13a3d-03dc-49b7-a20a-e39cb2e03d58",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 10.0,
+      "y": 4.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "50c64b50-6e5a-49f5-a306-66c503c0afe3",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 11.0,
+      "y": 4.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "06bc40a2-9c15-4b8f-8f2d-3d9a1409e69e",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 10.0,
+      "y": 5.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "d1e10627-a1e9-45ec-91f7-ad504989a686",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 11.0,
+      "y": 5.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "84633b33-5e71-496f-bc8b-c1d280b7e717",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 10.0,
+      "y": 6.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "39ec2e84-e3dc-4412-98fd-874490e503f0",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 11.0,
+      "y": 6.5,
+      "z": -16.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "ba3de0e0-bcce-440a-a61b-877e4cf7ea40",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 11.0,
+      "y": 6.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "d040598c-7dd3-4c32-b188-798db641fb79",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 10.0,
+      "y": 6.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "d3e815b6-abd7-447b-8c07-1675da82d384",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 11.0,
+      "y": 6.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0,
+          "faceColors": [
+            [
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              0.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "79d2956d-e8e2-489b-90f0-51c8e99fa202",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 10.0,
+      "y": 6.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 0.0,
+          "g": 0.0,
+          "b": 0.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "1db01300-8768-4eef-b5cf-9c1e7c05e2e8",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 6.0,
+      "y": 6.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "a5a5c52a-571b-4378-bdf0-61096c007e02",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 6.0,
+      "y": 6.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "20ef7fd0-adcc-4d96-8b8e-8a6cd442d84e",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 6.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "6f81420e-2986-47c3-9e23-a146d3fd7210",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 6.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "49be9729-4c88-4774-8eee-986185bb0094",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 7.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "d329377f-a021-4dbc-8b04-b7eba8ce406e",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 7.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "b2c340c6-2685-4ac5-918b-72b1b0e0943e",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 8.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "682818f5-dd52-4ff0-a7a8-e9e276a5640b",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 8.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "cbde999d-c830-40ee-8bc6-49df86f021db",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 9.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "41fcd68a-e84c-49b3-8b3f-56bd3e567f46",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 9.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "2838a8dc-fc07-45ce-9ded-4d5b55196fca",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 12.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "6f50be60-0335-49b2-bceb-dd2aaffab3d7",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 12.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "0fd848f1-b67c-4252-98ec-5acfd334114a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 10.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "077d2a1f-69d9-4fce-aef6-d7cf0a750f6f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 10.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "efdec2e8-aef4-4c7e-8b8f-9611f20c4d42",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 11.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "1ef94972-92c9-4a22-9b38-ec9c15b104db",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 11.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "2d775df0-ea71-4870-9dba-46d7d265d395",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 13.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "5213e272-cb5a-4e64-8c57-bf291a0907d3",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 13.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "5493606a-ced8-45ab-bec3-ce7c011981b8",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 4.0,
+      "y": 13.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "e7275c0d-12d5-4c01-8a37-213d1e1bf214",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 4.0,
+      "y": 13.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "3b58abe4-940d-4295-927e-327168f11f21",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 3.0,
+      "y": 13.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "f9939c6a-d9c9-4f59-ba1f-2a3978811aa6",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 3.0,
+      "y": 13.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "55f8e100-8088-48ee-a2a3-428bfed3c15f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.0,
+      "y": 13.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "95e00e81-c4ab-4f3d-8547-179316818fff",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.0,
+      "y": 13.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "c7f41e5f-3687-4c8b-89a0-5973a5786919",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 1.0,
+      "y": 13.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "d8f134f6-fa64-4b57-82d3-1b6ef07a9568",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 1.0,
+      "y": 13.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "2bab2eba-1504-4968-8bbb-ea49d906581b",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 1.0,
+      "y": 13.5,
+      "z": -2.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "ed424460-0e71-4abe-915a-e9a42eb6d225",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.0,
+      "y": 13.5,
+      "z": -2.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "8dbaab54-ee46-4ba3-bc61-b9cc53683811",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 1.0,
+      "y": 13.5,
+      "z": -1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "f45acb5b-452a-4527-b18e-91567ee3009b",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.0,
+      "y": 13.5,
+      "z": -1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "956533a6-e67d-4a97-8066-6379dfcf91dc",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 0.0,
+      "y": 13.5,
+      "z": -2.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "c37af934-6460-4fc9-bd10-1e32ca416993",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 0.0,
+      "y": 13.5,
+      "z": -1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "eb342ab9-fd5a-4788-b461-059cb88a185a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 0.0,
+      "y": 13.5,
+      "z": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "928caf1c-1849-49cd-bac2-ee839c9963cd",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 1.0,
+      "y": 13.5,
+      "z": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "782dcc07-7f10-449c-9dee-13856e8f0b8b",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.0,
+      "y": 13.5,
+      "z": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "4695c7cd-10a3-4459-afc6-35f38b3a31c2",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 1.0,
+      "y": 13.5,
+      "z": -13.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "fc57d8b0-a31f-458c-9a79-8ec72cf29126",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.0,
+      "y": 13.5,
+      "z": -13.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "f2e3fb0d-5af4-4b23-83ab-edb2a514385f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 1.0,
+      "y": 13.5,
+      "z": -14.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "604cbfd0-64a8-4e4d-8f55-965c710d2891",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.0,
+      "y": 13.5,
+      "z": -14.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "c5fb3321-5965-4328-aa43-d2d3ca6c3361",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 1.0,
+      "y": 13.5,
+      "z": -15.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "18d66fd7-63cb-4625-955a-bb69cbb673c7",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.0,
+      "y": 13.5,
+      "z": -15.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "ae46123d-0f4a-42e7-bf9f-91de81fe6f5f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 3.0,
+      "y": 13.5,
+      "z": -2.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "4249d65a-8312-45e4-89fa-d3d727f19f0a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 3.0,
+      "y": 13.5,
+      "z": -1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "21d0af77-3a2b-4c4d-b9f4-85ea678ea99e",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 3.0,
+      "y": 13.5,
+      "z": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "b46b048f-ff69-4789-b798-d3b65ccbf891",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 3.0,
+      "y": 13.5,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "7ea07816-299a-4c89-916e-1e449f777cb6",
+    "name": "Object",
+    "transformMode": 1,
+    "transform": {
+      "x": 1.0,
+      "y": 13.5,
+      "z": 1.0,
+      "rotX": -152.00003,
+      "rotY": 0.0,
+      "rotZ": -0.0,
+      "scaleX": 1.0,
+      "scaleY": 7.804085,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "17dbf325-44b5-4227-9204-015e3c9672d1",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.0,
+      "y": 13.5,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "12fddedb-d653-41cc-a66f-6b6c6fd57a99",
+    "name": "Boombox_01",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.5082536,
+      "y": 14.002082,
+      "z": 0.54561055,
+      "rotX": 179.99998,
+      "rotY": -20.500006,
+      "rotZ": 179.99998,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "Boombox_01.glb",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": false,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "9f9a5832-c122-40d1-8c23-254e893d6b7b",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 0.5,
+      "z": -4.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "cd1a5df0-98b8-4176-9377-5c7f6b0f7443",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 0.5,
+      "z": -6.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "a08012f6-e46b-4778-80c6-1bfec6419837",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 0.5,
+      "z": -7.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "e0f159a2-563d-4a8b-9715-ae51f38bca2b",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 0.5,
+      "z": -8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "f0b1039e-046b-41f2-823f-5372a0b9b914",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 0.5,
+      "z": -10.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "3f01795d-73a2-417a-b66a-bf2f6ac9873d",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 0.5,
+      "z": -13.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "fd2cdb21-d069-4f21-8c6e-ded0e33a36be",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 1.5,
+      "z": -13.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "d5ab48b7-df41-4e4e-a069-b0cd9d4afe03",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": -13.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "4d4edee5-5d19-44b1-be22-9558f8226a7e",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 3.5,
+      "z": -13.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "c16d9954-d077-44bc-b646-8608fcc93f26",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 4.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "b2236afc-2103-4412-9863-ae3fc520eddb",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 4.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "a2c92010-e496-41d4-ab8f-71eedddaaa9c",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": -12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "7dd4da4f-0f41-47b8-8438-216ae17c9909",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "6219047f-42b1-48cd-b1a5-38ae09a4614b",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 1.5,
+      "z": -10.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "f3c38811-3159-4b28-91cc-2f9a8db40653",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": -10.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "4df5a33e-b24e-44ee-8015-3615626ca668",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 3.5,
+      "z": -10.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "39a69aeb-8150-45c8-9b33-950e01e692c4",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 1.5,
+      "z": -8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "c123687d-181b-4498-8361-84e36a5c2c03",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": -8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "67a217f3-91cc-45f9-a9ea-d96c87ef5211",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 3.5,
+      "z": -8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "b3bdaef4-0413-464e-a9d8-d66c9d36d100",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 4.5,
+      "z": -8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "45f048c8-7fc9-49af-a96f-253cb46cca6d",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 1.5,
+      "z": -4.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "63c71cdb-7e98-4282-9d71-326ac76cfc32",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": -4.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "8c9b8518-2512-4fae-83b6-40bdfaa2235e",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 3.5,
+      "z": -4.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "77d2ea40-0829-4219-bdb1-b4ea3ef13236",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 4.5,
+      "z": -4.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "4f8f6c55-c530-4ab9-b66c-c5b7414d0bad",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 4.5,
+      "z": -3.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "aa60fbdf-48e6-4336-805b-5c665b08e754",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 4.5,
+      "z": -2.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "91827dc3-2def-4da0-a056-3fcea4410051",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 3.5,
+      "z": -1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "a97700f2-59a3-459f-b315-3c015e3f1f27",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": -3.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "3fce24fc-b391-454d-8246-64d7a5acfb53",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": -2.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "6723a2e4-4228-42c5-9917-4e33b480e056",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 0.5,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "fe0a50dc-1cef-4a61-8281-0f8709a65808",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 1.5,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "589e2995-4342-41fc-a176-ec2bb7ca0bf6",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 3.5,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "b7578b9f-092a-47a5-9fec-e762439edc8a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 4.5,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "0e0eaedc-4d95-450d-9742-429e2f261871",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": 2.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "54aaa46a-db40-443b-b7c1-b20e0e79dc7f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 1.5,
+      "z": 4.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "df04cf8d-37c1-420d-b009-ba7f4717297e",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 0.5,
+      "z": 4.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "1b935c95-a3fc-47b4-8635-e0868b08d6c9",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": 3.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "e9bbfff2-056c-4f8d-ac10-836a368fc782",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 3.5,
+      "z": 4.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "ea84045c-e0ed-4185-a68e-1daee04aabd1",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 4.5,
+      "z": 4.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "9c6fb4ea-c045-4577-a9bf-4c8be7fe8ff9",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "c6dbc2f0-b980-47d8-be1c-da734a10dac1",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": 4.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "53d757e6-6aee-4872-bf4a-cb8bb13d86b7",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 0.5,
+      "z": 6.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "363925e7-2c5e-437d-98f9-97ec221c5f0a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 1.5,
+      "z": 6.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "20cdd227-e061-40b8-b4d3-c29377ab593c",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": 6.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "b9ee6cf3-80d0-4192-bdaf-7816c12f3d42",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 3.5,
+      "z": 6.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "1c5400c7-30fa-4e1f-a5d5-594027ad6d18",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 4.5,
+      "z": 7.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "f7e4af94-4699-4595-bf71-894b3db731b6",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 4.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "5e55698f-fa7d-4b43-a4ec-ebf69db6364a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": 7.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "2a05ac1d-464e-4cc3-9299-9f4b368425f4",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "09cc50df-ae16-44a2-ad43-18b4ca6e6320",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": 9.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "722c29e5-0c35-4d9f-9ff3-6f7808cc649e",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 3.5,
+      "z": 9.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "7a930831-1a25-4c01-aabd-08bdd47465e2",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 1.5,
+      "z": 9.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "aba743d8-9d60-4bcc-90d8-7b00eaeb280a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 0.5,
+      "z": 9.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "df2aa692-0714-412d-8fde-56f6f0de8b9f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 0.5,
+      "z": 14.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "49f898ad-bb39-447f-89a3-a82022b2a23c",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 1.5,
+      "z": 15.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "9c475e43-55b7-4f2b-a874-acb6290c0920",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 2.5,
+      "z": 15.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "cfbcbd70-cef4-4f6e-8bf3-5ef390ac764b",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 3.5,
+      "z": 15.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "d2ee6c6c-9ef8-4f1b-8b1d-193141c8e92a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 4.5,
+      "z": 14.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "03b8a3d6-f9ac-4c75-9891-2555355f5bc3",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 1.5,
+      "z": 12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "ce18a0a8-bca8-4ec6-977d-ccf43841dcd7",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 52.0,
+      "y": 3.5,
+      "z": 12.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "afe04b0d-1842-4e5b-b060-cadd0a5ee4b2",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 7.0,
+      "y": 1.5,
+      "z": -8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "46114abe-ca57-47d0-b857-1cf47d600cd3",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 7.0,
+      "y": 2.5,
+      "z": -7.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "f61cd452-9ba9-41eb-8526-494ba9760181",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 7.0,
+      "y": 2.5,
+      "z": -6.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "f1a86863-0e08-4fb8-a666-891344310c8a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 7.0,
+      "y": 1.5,
+      "z": -5.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "716b264c-45dd-4b55-8224-f1d8fc091875",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 7.0,
+      "y": 0.5,
+      "z": -8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "8bb7e889-2fe7-4235-9bf7-1529860e2b36",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 7.0,
+      "y": 0.5,
+      "z": -5.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "e5673b50-0a87-4c66-a8ac-0a4a5f87670f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 6.0,
+      "y": 0.5,
+      "z": -5.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "ccde36f5-eee0-47c3-82a3-c305d22ba30e",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 6.0,
+      "y": 1.5,
+      "z": -5.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "183f40dc-7893-4877-bc17-5c57df9bea55",
+    "name": "Object",
+    "transformMode": 2,
+    "transform": {
+      "x": 6.0,
+      "y": 2.5,
+      "z": -6.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "45a6dfc7-51eb-4c0c-bf6f-167d87d9c240",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 6.0,
+      "y": 2.5,
+      "z": -7.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "0c97e414-746f-48cf-880a-79cd08b98bf3",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 6.0,
+      "y": 1.5,
+      "z": -8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "ccc97a94-0e55-4a0f-be98-23416806c31d",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 6.0,
+      "y": 0.5,
+      "z": -8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "a50db78b-81c9-4d70-8f52-8262e7d84d0e",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 1.5,
+      "z": -8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "63505d11-4626-4e8a-aac8-9a92d18a1117",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 0.5,
+      "z": -8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "0f1e6b8d-0b8c-4272-b962-038166e24030",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 2.5,
+      "z": -7.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "c6c2c381-f22e-4ea3-afe1-9053ca5041fa",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 2.5,
+      "z": -6.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "5e0c49e9-4f6a-4b7a-abac-97d3685b2816",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 1.5,
+      "z": -5.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "2ec64af8-0285-41fc-b788-f6303426af9b",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 0.5,
+      "z": -5.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "4c9adf84-d364-4766-875b-776d137ecb4a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 4.0,
+      "y": 2.5,
+      "z": -6.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "70eacebb-d4cc-43e5-9d68-e9a222061af0",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 4.0,
+      "y": 2.5,
+      "z": -7.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "ecfbe002-9854-4c25-b905-aed30ab30414",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 3.0,
+      "y": 2.5,
+      "z": -7.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "13917435-a1ad-4ce1-8544-2ba92bd78df0",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 3.0,
+      "y": 2.5,
+      "z": -6.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "1c19a744-1c4c-4655-9845-89fe31784293",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 4.0,
+      "y": 1.5,
+      "z": -5.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "0469351d-3441-4a0f-84a7-ebd098eca00a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 4.0,
+      "y": 0.5,
+      "z": -5.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "bd20a54d-f351-4a6a-942e-d5a244d71e74",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 3.0,
+      "y": 1.5,
+      "z": -5.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": false,
+          "textureScale": 0.841,
+          "faceColors": [
+            [
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ],
+            [
+              1.0,
+              1.0,
+              1.0
+            ]
+          ]
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "13cae6ef-48f7-4f86-89d4-ed92d07f05fd",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 3.0,
+      "y": 0.5,
+      "z": -5.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "4bc6c63d-e068-4070-96c5-f2fbc6338c30",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 4.0,
+      "y": 1.5,
+      "z": -8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "785f3745-d92b-4dff-a5c4-f48f51d0ab80",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 3.0,
+      "y": 1.5,
+      "z": -8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "3f76836d-ad06-44c1-85bf-a294b056af04",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 3.0,
+      "y": 0.5,
+      "z": -8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "85c3750b-895c-4269-936c-94f8c95b670c",
+    "name": "Tubes",
+    "transformMode": 0,
+    "transform": {
+      "x": 8.0,
+      "y": 18.5,
+      "z": 57.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "Tubes.obj",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": false,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "fa825cb1-e440-4f04-a6a1-80736df4f17a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 31.0,
+      "y": 1.5,
+      "z": -13.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "daac3ebe-0eb1-4774-b90d-2c601e867ac8",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 31.0,
+      "y": 2.5,
+      "z": -13.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "203b502a-fa79-448b-89aa-802978eaecde",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 32.0,
+      "y": 2.5,
+      "z": -13.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 0.64705884,
+          "b": 0.29411763,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "d7974681-78bf-4157-a9c4-4d26e5108d81",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 32.0,
+      "y": 1.5,
+      "z": -13.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "b8990489-4988-4948-846d-306c28f5abb4",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 31.0,
+      "y": 3.5,
+      "z": -13.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "698ac51b-1bac-4790-bca8-dc6bbed15bee",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 32.0,
+      "y": 3.5,
+      "z": -13.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "82b3595f-2fb1-4671-804c-7d1687aad3e9",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 33.0,
+      "y": 3.5,
+      "z": -13.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "66c83a51-78dd-4c72-8a27-6d06f0bff372",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 33.0,
+      "y": 1.5,
+      "z": -13.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "c24f762e-ae24-42bf-9d81-82395c3bc43a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 33.0,
+      "y": 2.5,
+      "z": -13.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "e3e28a4e-9bd0-4e2e-85cf-cd153f675e9d",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 0.0,
+      "y": 13.5,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": true,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "5a7d9757-7ad7-417b-b47e-1b6e430b2afd",
+    "name": "Hazmat",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 0.0,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "Hazmat.png",
+        "modelPath": "characters/Hazmat.glb",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": false,
+          "textureScale": 0.001
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      },
+      {
+        "animationFilePath": "idle.glb",
+        "currentTime": 1854.7896999999994,
+        "playing": true,
+        "trimOffsetX": 0.0,
+        "trimOffsetY": 0.0,
+        "trimOffsetZ": 0.0,
+        "trimTiltX": -5.0,
+        "trimTiltY": 0.0,
+        "trimTiltZ": 0.0,
+        "type": "Animator"
+      }
+    ]
+  },
+  {
+    "uuid": "abe63c36-f0e0-443f-9477-200aa06f5715",
+    "name": "Spawn Point",
+    "transformMode": 0,
+    "transform": {
+      "x": 7.8396864,
+      "y": 1.4816583,
+      "z": -11.949657,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "spawn.png",
+        "modelPath": "__spawn_point",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0,
+          "useWorldSpaceTiling": false,
+          "textureScale": 1.0
+        },
+        "isFoliage": false,
+        "type": "MeshRenderer"
+      }
+    ]
+  }
+]

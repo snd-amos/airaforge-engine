@@ -1,33 +1,22 @@
 package com.myengine;
 
-/**
- * Command for undoing/redoing transform changes.
- * Captures position, rotation, and scale before and after changes.
- */
-public class TransformCommand extends Command {
+class TransformCommand extends Command {
     private GameObject gameObject;
 
-    // Before state
     private float prevX, prevY, prevZ;
     private float prevRotX, prevRotY, prevRotZ;
     private float prevScaleX, prevScaleY, prevScaleZ;
 
-    // After state
     private float newX, newY, newZ;
     private float newRotX, newRotY, newRotZ;
     private float newScaleX, newScaleY, newScaleZ;
 
-    /**
-     * Create a transform command with explicit before state.
-     * Used for Inspector edits where we capture the initial values.
-     */
     public TransformCommand(GameObject gameObject,
                             float beforeX, float beforeY, float beforeZ,
                             float beforeRotX, float beforeRotY, float beforeRotZ,
                             float beforeScaleX, float beforeScaleY, float beforeScaleZ) {
         this.gameObject = gameObject;
 
-        // Set before state from parameters
         this.prevX = beforeX;
         this.prevY = beforeY;
         this.prevZ = beforeZ;
@@ -38,23 +27,14 @@ public class TransformCommand extends Command {
         this.prevScaleY = beforeScaleY;
         this.prevScaleZ = beforeScaleZ;
 
-        // Capture current state as "after"
         captureAfterState();
     }
 
-    /**
-     * Alternative constructor for gizmo drags (auto-captures before state).
-     * Used when starting a gizmo drag operation.
-     */
     public TransformCommand(GameObject gameObject) {
         this.gameObject = gameObject;
         captureBeforeState();
     }
 
-    /**
-     * Capture the current transform state as the BEFORE state.
-     * Call this immediately when starting to track a transform change.
-     */
     private void captureBeforeState() {
         if (gameObject == null || gameObject.transform == null) {
             return;
@@ -71,10 +51,6 @@ public class TransformCommand extends Command {
         prevScaleZ = gameObject.transform.scaleZ;
     }
 
-    /**
-     * Capture the current transform state as the AFTER state.
-     * Call this after you've finished making changes.
-     */
     public void captureAfterState() {
         if (gameObject == null || gameObject.transform == null) {
             return;
@@ -91,9 +67,6 @@ public class TransformCommand extends Command {
         newScaleZ = gameObject.transform.scaleZ;
     }
 
-    /**
-     * Check if there were actually any changes.
-     */
     public boolean hasChanged() {
         return prevX != newX || prevY != newY || prevZ != newZ ||
                 prevRotX != newRotX || prevRotY != newRotY || prevRotZ != newRotZ ||
@@ -102,7 +75,6 @@ public class TransformCommand extends Command {
 
     @Override
     public void execute() {
-        // Apply the new state (redo)
         if (gameObject == null || gameObject.transform == null) return;
 
         gameObject.transform.x = newX;
@@ -118,7 +90,6 @@ public class TransformCommand extends Command {
 
     @Override
     public void undo() {
-        // Restore the old state (undo)
         if (gameObject == null || gameObject.transform == null) return;
 
         gameObject.transform.x = prevX;

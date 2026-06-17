@@ -1,0 +1,2827 @@
+[
+  {
+    "uuid": "a5d30d3e-49fa-47b4-b3ba-a7a963a4f950",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.0,
+      "y": 0.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "292c187c-a1eb-4471-8bc7-66b41e8b1399",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 1.0,
+      "y": 0.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "9c88ad05-efd2-457d-8ff1-9c56b453d059",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 0.0,
+      "y": 0.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "ab96f93d-0cad-493c-a5a6-381010f92210",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -1.0,
+      "y": 0.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "0585b802-5c73-4022-82d2-2d5d3f6be7ae",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.0,
+      "y": 1.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "b5c85fa2-b9bb-4c93-acd9-f50889ade5a0",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 1.0,
+      "y": 1.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "9013c8b5-7200-48e1-ad2b-97ae452fe1c1",
+    "name": "Object",
+    "transformMode": 2,
+    "transform": {
+      "x": -1.0,
+      "y": 1.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 0.31855774,
+      "scaleY": 1.0,
+      "scaleZ": 1.0
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "22951ae0-c61a-4abb-bda4-b3da52c3f971",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.0,
+      "y": 2.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "4c76100a-b3f8-4e3c-beeb-6eae6970f9a0",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 0.0,
+      "y": 2.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "a8da26de-2417-4649-a65e-6f0db265e3eb",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -1.0,
+      "y": 2.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "9b78ffe5-ef29-4e49-9564-3a82b1ea4083",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 1.0,
+      "y": 2.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "829facd9-d949-43c9-b85e-b3b19e53ca9f",
+    "name": "night1",
+    "transformMode": 0,
+    "transform": {
+      "x": 0.0,
+      "y": 0.86,
+      "z": 3.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 2.25,
+      "scaleY": 2.25,
+      "scaleZ": 2.25
+    },
+    "components": [
+      {
+        "texturePath": "night1.png",
+        "modelPath": "night1.glb",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "88352f54-37d7-410e-b844-d3edbe4bc847",
+    "name": "night1",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.0,
+      "y": 0.86,
+      "z": 3.0,
+      "rotX": 0.0,
+      "rotY": -180.0,
+      "rotZ": 0.0,
+      "scaleX": 2.25,
+      "scaleY": 2.25,
+      "scaleZ": 2.25,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "night1.png",
+        "modelPath": "night1.glb",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "4e7be81e-4fb8-4477-8d0d-fe4b76e59d37",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -2.0,
+      "y": 0.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "65d5be84-e01e-4e0a-aa46-d842143f6022",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -2.0,
+      "y": 2.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "33b71fb7-f951-4a29-9e63-ee5012ce5d80",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -2.0,
+      "y": 1.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "a3556ca1-99bc-45fc-ab05-08baed4f00c3",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -2.0,
+      "y": 3.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "6bb683a1-5355-4c8e-bab4-110318b5f64f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 0.0,
+      "y": 3.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "2bcca94a-2b6c-45b5-a8eb-39ac1ab03be6",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 1.0,
+      "y": 3.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "37dd5472-82c6-4c0d-adf7-1340cc8601f5",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.0,
+      "y": 3.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "ba8cf1e8-70d8-45ee-aaac-1b9f58312db2",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -1.0,
+      "y": 3.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "9db83bb3-3e20-4a19-a016-83e17fd34176",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 0.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "2ac15889-29a7-45b2-a936-d5088b32abdc",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 1.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "2e544582-754b-4c68-b99f-bec7bb325126",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 3.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "b8ddfbdc-7b0b-4a4a-8b16-2f0509750416",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 2.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "6ba5d9c6-95f7-498d-a59d-88fe0c421053",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 6.0,
+      "y": 3.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "85f0dc62-8c64-475f-a2a2-d616f24fce5f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 6.0,
+      "y": 2.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "28828d56-f94b-4ee1-8e78-e421f73d81f2",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 6.0,
+      "y": 1.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "c5233249-a658-456c-aa02-12f1f23ff39f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 6.0,
+      "y": 0.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "7dd89d4a-3623-4d93-9dbf-c04254ac3273",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -3.0,
+      "y": 0.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "72cfc977-6823-4351-83ad-734386e7fa1d",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -3.0,
+      "y": 1.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "36f43f19-61b8-421e-a215-3e98a3e96f2b",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -3.0,
+      "y": 2.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "8cf91871-a0d9-4680-80e6-04e0b9437b6b",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -3.0,
+      "y": 3.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "948d5be9-b0ee-48f8-ba9a-a1e3d957f0bb",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -4.0,
+      "y": 3.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "9727cc9a-cafc-40b0-ac44-6e50951c9af8",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -4.0,
+      "y": 2.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "ad66e22b-73ff-472e-979a-b74d68831663",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -4.0,
+      "y": 0.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "b4bb44b0-7f6e-4718-b530-706ebdfcd1fd",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -4.0,
+      "y": 1.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "19cff0bb-4646-49c0-90f8-06357ea444bd",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -5.0,
+      "y": 0.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "75cb93f5-93c6-444b-81ce-b153d2f5c6d4",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -5.0,
+      "y": 1.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "3960dd98-0fe6-42a0-a59b-1671e61f93bc",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -5.0,
+      "y": 2.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "35c4e9f2-c748-48d8-9085-eedc90c8f9dc",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -5.0,
+      "y": 3.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "34e82a41-449f-4b67-9987-085c2672127b",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -6.0,
+      "y": 0.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "9fce765e-9465-4fee-8057-e7f3691a8e4f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -6.0,
+      "y": 1.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "baf6da93-22b7-4614-9cfe-6cea90b77d01",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -6.0,
+      "y": 2.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "5f31d9ab-a8b3-45e5-bc4b-13da212833d8",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -6.0,
+      "y": 3.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "3a8aeb0d-8660-40dd-a250-f02eea2529d8",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -7.0,
+      "y": 0.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "d7511ca8-3b75-434a-b1fd-99e4737074e9",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -7.0,
+      "y": 1.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "6d1a9949-35b3-48fb-bccb-7c6c090ef6b2",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -7.0,
+      "y": 2.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "fe6c8199-0ce1-41e2-a333-ea9f0c84d7f9",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -14.5,
+      "y": 6.0,
+      "z": -22.717323,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 0.5,
+      "scaleY": 12.0,
+      "scaleZ": 17.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "e9dc4bd4-e68d-4b33-9f21-fd0ae7eb735f",
+    "name": "Object",
+    "transformMode": 2,
+    "transform": {
+      "x": -8.5,
+      "y": 6.0,
+      "z": -11.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 0.5,
+      "scaleY": 12.0,
+      "scaleZ": 17.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "7a8b7394-1ac4-4613-9a38-7699cd838b9f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -11.0,
+      "y": 0.5,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "e2e141da-daa8-4fed-8f97-5af30e6e5e5e",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -11.0,
+      "y": 1.5,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "261ccf28-fe58-4fb6-ad0b-598d83f2d5d1",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -11.0,
+      "y": 0.5,
+      "z": 2.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "d31a36c1-b9e0-49c6-8c6b-36bd18fed5cd",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -12.0,
+      "y": 0.5,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "245be352-7fc2-40f9-848b-ad06fea24191",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -12.0,
+      "y": 0.5,
+      "z": 2.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "6a96fb44-f67f-4a88-a8ee-3b5bcf3f6efa",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -12.0,
+      "y": 1.5,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "dba704c9-ba63-4d67-8188-212eda714d7f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -11.0,
+      "y": 0.5,
+      "z": 3.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "7df2b344-41ff-4cbf-ad59-f999b511312e",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -12.0,
+      "y": 0.5,
+      "z": 3.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "22d10aee-6bde-4385-8f6b-6b1da135b852",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -11.0,
+      "y": 1.5,
+      "z": 2.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "5b2d432a-e6cb-4a67-9590-273fb7bbdf8a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -12.0,
+      "y": 1.5,
+      "z": 2.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "3656a94e-4b79-4bf2-8ecf-3dce850692c8",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -11.0,
+      "y": 2.5,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "37a8d31b-d88b-4972-9ed9-252b77f8afc5",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -12.0,
+      "y": 2.5,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "632d6bc8-b03a-4ebc-ae8a-0a860d1575db",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -11.0,
+      "y": 2.5,
+      "z": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "ad1abdad-ede8-4617-a40f-6c51c4dda91f",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -12.0,
+      "y": 2.5,
+      "z": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "b7a78cfe-760e-4122-a9e2-1a007a6488d9",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -13.0,
+      "y": 2.5,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "6bfca8f3-1443-490b-83a3-8713dc4a98c5",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -13.0,
+      "y": 2.5,
+      "z": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "48392c14-6e64-4984-97e9-470825933420",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -14.0,
+      "y": 2.5,
+      "z": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "435c66d8-542c-4b3d-918a-8dccb3882d89",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -14.0,
+      "y": 2.5,
+      "z": 1.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "5ca0ca8a-8ca1-4bf0-b663-43975354be1a",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -13.0,
+      "y": 2.5,
+      "z": 2.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "6a21f1af-d04f-42c4-a0e6-e4c20e0d5849",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -14.0,
+      "y": 2.5,
+      "z": 2.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "4af0ae94-f75d-4a41-8cbc-64732cc421b8",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -13.0,
+      "y": 2.5,
+      "z": 3.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "f17eda48-78bf-44b3-b41d-09f3a7d2205b",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -14.0,
+      "y": 2.5,
+      "z": 3.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "291ab243-faa4-48ad-a3fc-63cab256d1ad",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 6.0,
+      "y": 4.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "7c9ab8e4-438a-4d51-986a-2a0fce7e2a8d",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 4.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "6261b2ab-6d96-4e29-ba97-5877efdd1a50",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.0,
+      "y": 4.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "6453eaff-f84d-4724-80c5-d26401cc1830",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.0,
+      "y": 5.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "f5d8e8c0-7f04-4f64-b3cc-a71e0d308309",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 3.0,
+      "y": 5.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "d7030724-4de0-49c0-951a-58f0435ad5c5",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 4.0,
+      "y": 5.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "43ee4849-8d5f-4ec4-930a-2a2e4c8b1f18",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 5.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "78fe6db7-6203-4ac1-9441-33b19871aa73",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 6.0,
+      "y": 5.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "57bfecb5-c704-4849-badb-5124a45577a5",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 1.0,
+      "y": 4.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "6c0adf9b-4577-4a53-bc83-3a7dc7657b74",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 1.0,
+      "y": 5.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "dfdefc87-e05f-4bb3-87ca-1f1d5ebbaf42",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 0.0,
+      "y": 4.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "db50a120-0db6-49e6-bae9-602225da22e4",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -1.0,
+      "y": 4.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "e03bde6a-8ea2-4f04-97ec-989332e81d4e",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 0.0,
+      "y": 5.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "5a2fa907-734b-4513-ab42-5f704d742adf",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": -1.0,
+      "y": 5.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "542e9344-0cc6-4cc1-9118-25044c49af80",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 4.0,
+      "y": 4.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "1c4f37f1-79b9-40ca-b111-948bbbd2695c",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 3.0,
+      "y": 4.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "2dc0a419-1022-4fe2-831e-a331f11750d2",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 4.0,
+      "y": 2.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "4c84548a-a30b-40b0-8179-0ac3ff4a5e19",
+    "name": "Object",
+    "transformMode": 0,
+    "transform": {
+      "x": 3.0,
+      "y": 2.5,
+      "z": 8.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "1ec4b702-0197-4ff5-9140-2f5a1ed2e8d9",
+    "name": "old_computer",
+    "transformMode": 0,
+    "transform": {
+      "x": 2.1333225,
+      "y": 1.3270661,
+      "z": 2.9807308,
+      "rotX": 90.0,
+      "rotY": 180.0,
+      "rotZ": -90.0,
+      "scaleX": 1.2148395,
+      "scaleY": 1.2148395,
+      "scaleZ": 1.2148395,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "old_computer.glb",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "90d0c06a-d951-4ae4-91f8-3a83ac7ab04f",
+    "name": "Hazmat",
+    "transformMode": 0,
+    "transform": {
+      "x": 5.0,
+      "y": 0.02599174,
+      "z": 5.0,
+      "rotX": 0.0,
+      "rotY": -180.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "Hazmat.png",
+        "modelPath": "Hazmat.glb",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      },
+      {
+        "animationFilePath": "Idle.glb",
+        "currentTime": 5742.120200000207,
+        "playing": true,
+        "trimOffsetX": 0.0,
+        "trimOffsetY": 0.0,
+        "trimOffsetZ": 0.0,
+        "trimTiltX": 0.0,
+        "trimTiltY": 0.0,
+        "trimTiltZ": 0.0,
+        "type": "Animator"
+      }
+    ]
+  },
+  {
+    "uuid": "f801df75-fbf3-405b-bacb-7ec46874a6df",
+    "name": "Hazmat",
+    "transformMode": 0,
+    "transform": {
+      "x": 15.0,
+      "y": -0.118485,
+      "z": 14.0,
+      "rotX": -4.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "Hazmat.png",
+        "modelPath": "Hazmat.glb",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      },
+      {
+        "animationFilePath": "Idle.glb",
+        "currentTime": 3263.362200000078,
+        "playing": true,
+        "trimOffsetX": 0.0,
+        "trimOffsetY": 0.0,
+        "trimOffsetZ": 0.0,
+        "trimTiltX": 0.0,
+        "trimTiltY": 0.0,
+        "trimTiltZ": 0.0,
+        "type": "Animator"
+      }
+    ]
+  },
+  {
+    "uuid": "fc5775a3-7abe-48c4-8d55-a7d3e52cc403",
+    "name": "Floor",
+    "transformMode": 0,
+    "transform": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "",
+        "modelPath": "__floor_plane",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "c694f0e4-58c3-4853-8e79-1354031ac83f",
+    "name": "Sun",
+    "transformMode": 0,
+    "transform": {
+      "x": -10.0,
+      "y": 26.0,
+      "z": -40.0,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 1.0,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "test.png",
+        "modelPath": "",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "54b89729-4dda-452a-b65a-64f79dcff19c",
+    "name": "Spawn Point",
+    "transformMode": 2,
+    "transform": {
+      "x": 7.989275,
+      "y": 0.5,
+      "z": -14.083532,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 1.0,
+      "scaleY": 1.0,
+      "scaleZ": 6.720148,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "spawn.png",
+        "modelPath": "__spawn_point",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  },
+  {
+    "uuid": "badf174b-9785-4e6b-8853-bcfbd543127d",
+    "name": "Win Zone",
+    "transformMode": 2,
+    "transform": {
+      "x": -11.786501,
+      "y": 6.055615,
+      "z": -30.419233,
+      "rotX": 0.0,
+      "rotY": 0.0,
+      "rotZ": 0.0,
+      "scaleX": 4.848946,
+      "scaleY": 11.0,
+      "scaleZ": 1.5504017,
+      "type": "Transform"
+    },
+    "components": [
+      {
+        "texturePath": "win.png",
+        "modelPath": "__win_zone",
+        "material": {
+          "r": 1.0,
+          "g": 1.0,
+          "b": 1.0
+        },
+        "type": "MeshRenderer"
+      }
+    ]
+  }
+]

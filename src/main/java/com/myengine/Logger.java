@@ -3,11 +3,7 @@ package com.myengine;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-/**
- * Centralized logging system for the Game Engine.
- * Provides formatted console output with timestamps and severity levels.
- */
-public class Logger {
+class Logger {
     private static final DateTimeFormatter TIME_FORMAT = DateTimeFormatter.ofPattern("HH:mm:ss.SSS");
 
     public enum Level {
